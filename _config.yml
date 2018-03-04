@@ -9,7 +9,7 @@ description: >
 # Your information
 email: duanjiameis@163.com
 author: 段佳梅
-avatar: "https://github.com/darlings/darlings.github.io/blob/master/image/header.jpg"
+avatar: "./image/header.jpg"
 profile: 好好学习，天天向上...
 #twitter_username: darlings
 #github_username:  darlings
