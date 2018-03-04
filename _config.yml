@@ -1,10 +1,11 @@
 # Site settings
-title: 段佳梅
-url: "http://darllng.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
- # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
+title: 影子的个人技术博客
+url: "http://darllng.github.io"    
+# the protocol and hostname of your site, eg. `http://laobubu.github.io`
+# the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: >
-  One or more sentences introducing this blog.
+  Do not forget early mind, the party always
 
 # Your information
 email: duanjiameis@163.com
@@ -15,7 +16,7 @@ profile: One sentence introducing yourself.
 #github_username:  github_username
 profile_links:
   Email: "duanjiameis@163.com"
-  GitHub: "https://github.com/duanjiamei/darllng.github.io"
+  GitHub: "https://github.com/darllng"
   # You can add more profile links above, or edit _includes/sidebar.html 
 
 # Comment Service (Disqus or 多说)
@@ -27,9 +28,8 @@ excerpt_separator: <!--more-->
 
 header:
   links:             # Links on the header. Link to in-site page with a slash as prefix
-    About: /about/
-    Category: /category/
-    Donate: https://laobubu.net/donate.html
+    About: /关于我/
+    Category: /文章目录/
 
 permalink: /archivers/:title
 plugins:
