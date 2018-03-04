@@ -9,10 +9,10 @@ description: >
 # Your information
 email: duanjiameis@163.com
 author: 段佳梅
-avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
-profile: One sentence introducing yourself.
-#twitter_username: twitter_username
-#github_username:  github_username
+avatar: "https://github.com/darlings/darlings.github.io/blob/master/image/header.jpg"
+profile: 好好学习，天天向上...
+#twitter_username: darlings
+#github_username:  darlings
 profile_links:
   Email: "duanjiameis@163.com"
   GitHub: "https://github.com/duanjiamei"
