@@ -9,13 +9,13 @@ description: >
 # Your information
 email: duanjiameis@163.com
 author: 段佳梅
-avatar: "./image/header.jpg"
+avatar: "https://darlings.github.io/image/header.jpg"
 profile: 好好学习，天天向上...
 #twitter_username: darlings
 #github_username:  darlings
 profile_links:
   Email: "duanjiameis@163.com"
-  GitHub: "https://github.com/duanjiamei"
+  GitHub: "https://github.com/darlings"
   # You can add more profile links above, or edit _includes/sidebar.html 
 
 # Comment Service (Disqus or 多说)
