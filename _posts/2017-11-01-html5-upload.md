@@ -69,7 +69,7 @@ index.html
   </html>
 ```
 
-```html
+```javascript
 $(function(){
       var defaultSie = 1*1024;
       var $this = null;
