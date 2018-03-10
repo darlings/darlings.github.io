@@ -69,7 +69,10 @@ index.html
   </html>
 ```
 
+<script type="text/javascript">
+  
 ```javascript
+
 $(function(){
       var defaultSie = 1*1024;
       var $this = null;
@@ -159,6 +162,7 @@ $(function(){
       };
     })  
 ```
+</script>
 
 ### 关于new  FileReader()对象下的一些api方法
 
