@@ -69,8 +69,7 @@ index.html
   </html>
 ```
 
-<script type="text/javascript">
-  
+
 ```javascript
 
 $(function(){
@@ -162,7 +161,6 @@ $(function(){
       };
     })  
 ```
-</script>
 
 ### 关于new  FileReader()对象下的一些api方法
 
