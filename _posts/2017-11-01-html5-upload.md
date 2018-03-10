@@ -1,18 +1,20 @@
 ---
 layout: post
 title: HTML5图片上传
-date: 2017/11/01
-categories: html5
+date: 2017/06/13
 tag: html5
-permalink: /archivers/html5
+categories: html5
+permalink: /webpack/2017/06/13
 ---
 
 
 ###  HTML5实现文件上传
 
-> html5实现图片上传预览功能是一个非常称赞的功能，通常可以实现多张图片上传，过去使用flash上传多图片，现在使用H5中的FileReader方法就可以实现，
->
-> 图片上传支持ajax方式，file控件可读取文件的相关信息，通过监控FileReader的onload方法获取该对象下e.target.result获取图片的base64的url,再通过readAsDataURL(files[0]) 将文件编码转换成DataURL,使用这种方式的好处是不用向服务器发送http请求额外的请求，但因图片大小限制，不太适合大图片的编码，网页也很可能因此而造成加载异常。
+html5实现图片上传预览功能是一个非常称赞的功能，通常可以实现多张图片上传，过去使用flash上传多图片，现在使用H5中的FileReader方法就可以实现，
+
+图片上传支持ajax方式，file控件可读取文件的相关信息，通过监控FileReader的onload方法获取该对象下e.target.result获取图片的base64的url,再通过readAsDataURL(files[0]) 将文件编码转换成DataURL,使用这种方式的好处是不用向服务器发送http请求额外的请求，但因图片大小限制，不太适合大图片的编码，网页也很可能因此而造成加载异常。
+
+<!--more-->
 
 ### 本文主要对图片上传做如下几个讲解
 
@@ -69,9 +71,7 @@ index.html
   </html>
 ```
 
-
 ```javascript
-
 $(function(){
       var defaultSie = 1*1024;
       var $this = null;
@@ -228,5 +228,3 @@ $(function(){
 主要对` new FileReader()`这个新的API进行的讲解，在文件上传时，先要获取file对象，然后监控`onchange`事件获取文件的files[0]对象，然后实例化FileReader对象，在FileReader对象下调用onload方法，获取result值，最后FileReader对象`readAsDataURL(files[0])`进行读取文件资源
 
 通常实现了本地上传预览的基本功能，实际上功能只是实现了一半，在与后台的交互中，必须要讲form表单中的一些值传送给后台，此时在HTML5新增的一个API中就有一个非常有用的方法，`new FormData()`。
-
-本文案例[demo]()
